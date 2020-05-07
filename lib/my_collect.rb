@@ -3,4 +3,8 @@ def my_collect(array)
   while idx < array.length 
   
   if yield(array[index])
-    return 
+    return (array[index])
+  end
+   index += 1 
+  end
+end 
